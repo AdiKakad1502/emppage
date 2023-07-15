@@ -1,0 +1,139 @@
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center {
+    display: flex;
+    flex-direction: row;
+    pointer-events: none;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-center>* {
+    pointer-events: auto;
+    flex-shrink: 0;
+}
+
+.desktop {
+    align-items: center;
+    background-color: var(--white);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 1440px;
+}
+
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 1390px;
+    padding: auto 25px;
+    min-width: 1207px;
+    margin: 45px 33px;
+}
+
+
+.buttons {
+    justify-content: space-around;
+    margin: 45px 0px 45px 0px;
+}
+
+.save-button {
+    align-items: center;
+    background-color: #444;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 238px;
+    position: relative;
+    padding: 14px 20px;
+    overflow: hidden;
+}
+
+.save-changes,
+.edit-changes {
+    color: #ccc;
+    flex: 1;
+    font-family: var(--font-familiy-nunito);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    text-align: center;
+    position: relative;
+}
+
+.cancel-button {
+    align-items: center;
+    background-color: #32323221;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 238px;
+    position: relative;
+    padding: 14px 20px;
+    overflow: hidden;
+}
+
+.cancel-changes {
+    color: var(--black);
+    flex: 1;
+    font-family: var(--font-familiy-nunito);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    text-align: center;
+    position: relative;
+}
+
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.edit-button {
+    align-items: center;
+    background-color: #444;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 238px;
+    position: relative;
+    padding: 14px 20px;
+    overflow: hidden;
+}
+
+.chat-button {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #455A96;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.chat-button .chat-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+}

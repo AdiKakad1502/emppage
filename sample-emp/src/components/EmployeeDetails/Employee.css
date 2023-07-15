@@ -1,0 +1,141 @@
+/* .empBox{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 25px;
+
+position: absolute;
+width: 243px;
+height: 475px;
+left: 133px;
+top: 515px;
+
+}
+
+.empHeading{
+    width: 243px;
+height: 35px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.empValBox{
+    box-sizing: border-box;
+
+/* Auto layout 
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 7px;
+gap: 2px;
+
+width: 243px;
+height: 63px;
+
+background: #E9E9E9;
+border: 1px solid #000000;
+border-radius: 9px;
+
+}
+
+.empValHead{
+    width: 229px;
+height: 20px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #666666;
+
+}
+
+.empValue{
+    width: 229px;
+height: 20px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #666666;
+
+} */
+
+.valign-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--gray-nurse);
+    border: 1px solid var(--black);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    position: relative;
+    overflow: hidden;
+    gap: 2px;
+}
+
+.detail-head{
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.value{
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.employee-details{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    position: relative;
+    width: 243px;
+}
+
+.title{
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    text-align: center;
+    position: relative;
+}

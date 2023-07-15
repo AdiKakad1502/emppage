@@ -1,0 +1,158 @@
+/* .teamBox{
+    /* Team Members */
+
+
+/* Auto layout 
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 257px;
+height: 341px;
+left: calc(50% - 257px/2 - 62.5px);
+top: 519px;
+}
+
+.teamHeading{
+    /* TEAM MEMBERS 
+
+
+width: 257px;
+height: 35px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout 
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.teamValBox{
+    box-sizing: border-box;
+
+/* Auto layout 
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 14px;
+
+width: 257px;
+height: 74px;
+
+background: #E9E9E9;
+border: 1px solid #000000;
+border-radius: 9px;
+
+/* Inside auto layout 
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.teamValHead{
+    width: 229px;
+height: 34px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #666666;
+
+
+/* Inside auto layout 
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.teamValue{
+    width: 229px;
+height: 40px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout 
+
+} */
+
+.valign-text-middle{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.box{
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--gray-nurse);
+    border: 1px solid var(--black);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0px 14px;
+    position: relative;
+}
+
+.detail-head{
+    align-self:stretch;
+    height: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    margin-top: -1px;
+}
+
+.value{
+    align-self:stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    margin-top: -1px;
+}
+
+.team-members{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 257px;
+    gap: 28px;
+}

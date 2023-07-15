@@ -1,0 +1,54 @@
+.title{
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.valign-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.department-role{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 287px;
+    gap: 25px;
+}
+
+.box{
+    align-self: stretch;
+    align-items: flex-start;
+    background-color: var(--gray-nurse);
+    border: 1px solid var(--black);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.detail-head{
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.value{
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    margin-top: -1px;
+}
